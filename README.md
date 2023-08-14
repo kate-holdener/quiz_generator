@@ -5,9 +5,9 @@ To use this script, you will need a question pool - a simple text file with one 
 To run the script, you will first need to install the dependencies listed in requirements.txt:
 <code>pip install -r requirements.txt</code>
 
-```
 The main script is <code>generator.py</code>
 
+```
 usage: generator.py [-h] question_file num_quizzes questions_per_quiz quiz_file
 
 Generate different quizes based on a question pool
