@@ -22,5 +22,9 @@ positional arguments:
 optional arguments:
   -h, --help          show this help message and exit
 ```
-
+Example:
+``````
+python3 generator.py question_pool.txt 50 5 SampleQuiz.doc
+```
+```
 All quizzes are written to the <code>quiz_file</code>, which is Word document with one quiz per page.
