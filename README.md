@@ -22,7 +22,7 @@ positional arguments:
 optional arguments:
   -h, --help          show this help message and exit
 ```
-Example:
+For example, the following command line will generate 50 quizzes (5 questions each) using questions from question_pool.txt. The result will be written to SampleQuiz.doc.
 ```
 python3 generator.py question_pool.txt 50 5 SampleQuiz.doc
 ```
