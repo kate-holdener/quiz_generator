@@ -26,5 +26,4 @@ Example:
 ```
 python3 generator.py question_pool.txt 50 5 SampleQuiz.doc
 ```
-```
 All quizzes are written to the <code>quiz_file</code>, which is Word document with one quiz per page.
