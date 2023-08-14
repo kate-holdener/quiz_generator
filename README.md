@@ -22,8 +22,7 @@ positional arguments:
 optional arguments:
   -h, --help          show this help message and exit
 ```
-For example, the following command line will generate 50 quizzes (5 questions each) using questions from question_pool.txt. The result will be written to SampleQuiz.doc.
+For example, the following command line will generate 50 quizzes (5 questions each) using questions from question_pool.txt. The result will be written to SampleQuiz.doc (with one quiz per page).
 ```
 python3 generator.py question_pool.txt 50 5 SampleQuiz.doc
 ```
-All quizzes are written to the <code>quiz_file</code>, which is Word document with one quiz per page.
