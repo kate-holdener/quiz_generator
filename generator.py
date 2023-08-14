@@ -21,7 +21,7 @@ with open(args.question_file, 'r') as question_pool:
 # generate required number of quizzes
 unique_indices = []
 for i in range(0, args.num_quizzes):
-   quiz_questions = random.sample(range(0, len(all_questions)-1), args.questions_per_quiz)
+   quiz_questions = random.sample(range(0, len(all_questions)), args.questions_per_quiz)
    unique_indices.append(quiz_questions)
 
 # generate quiz documents
